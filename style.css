@@ -538,13 +538,22 @@ section.related-products h3 {
   height: 290px;
   object-fit: cover;
 }
+
+.designerContainer img:hover {
+  transform: scale(1.05);
+  transition: transform 0.7s ease;
+}
+
 .designerContainer h4 {
   font-weight: 500;
 }
 .designerContainer a {
   font-size: 14px;
 }
-.designerContainer a:hover {
+.designerContainer a {
+  font-size: 14px;
+}
+.toDesignerLink:hover {
   border-bottom: solid 1px rgb(0, 0, 0);
   padding-bottom: 0.1rem;
 }
@@ -1607,7 +1616,7 @@ footer .footergrid1 .SoMe a {
     grid-template-columns: 20% 1fr;
     padding-top: 2rem;
   }
-  .padRemove {
+  div.sidenav.padRemove {
     padding: 0 0 0 1rem;
   }
 
